@@ -14,12 +14,7 @@
   content: "";
   position: absolute;
   top: -5px;
-  background-image: linear-gradient(
-      to right,
-      rgba(1, 1, 1, 0.75),
-      rgba(1, 1, 1, 0.75)
-    ),
-    url("../../images/coverPhoto.png");
+  background-image: linear-gradient(to right, #04ade2, #0485a2);
   background-repeat: no-repeat, no-repeat;
   background-position: center;
   background-size: cover;

@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./About.css";
 
-class About extends Component {
-  render() {
+export default function About() {
     return (
       <div className="About" id="About">
         <p>
@@ -11,7 +10,7 @@ class About extends Component {
           innovate and disrupt the worlds of business and technology!
         </p>
 
-        <h3>Connect with uOttawa's Tech Community</h3>
+        <h3>Connect with Ohio University's Tech Community</h3>
         <p>
           Meet other students who are interested in the tech space in the open
           atmosphere of our events.
@@ -32,6 +31,3 @@ class About extends Component {
       </div>
     );
   }
-}
-
-export default About;

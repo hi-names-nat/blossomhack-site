@@ -27,9 +27,8 @@
 
 @media only screen and (max-width: 10000px) {
   .MediaLinks {
-    display: block;
+    display: flex;
     flex-direction: row;
-    float: left;
     margin: auto;
   }
 
@@ -38,11 +37,9 @@
   }
 
   .FooterLinks {
-    float: left;
-    margin: auto;
-    display: grid;
-    grid-auto-flow: column;
-    grid-column-gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .FooterLinks a {
@@ -65,9 +62,7 @@
   }
 
   .FooterContainer {
-    display: grid;
     width: 75%;
-    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 25px;
   }
 }
@@ -92,18 +87,5 @@
     grid-row-gap: 30px;
     justify-items: center;
     align-items: center;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .MediaLinks {
-    display: block;
-    flex-direction: row;
-    float: left;
-    margin: auto;
-  }
-
-  .MediaLinks a {
-    margin: 7px;
   }
 }
