@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import FooterLogo from "../../images/uottahack19-black.png";
+import FooterLogo from "../../images/footerlogo.png";
 
 const footer = () => {
   return (
@@ -23,7 +23,10 @@ const footer = () => {
             >
               Code of Conduct
             </a>
-            <a href="https://github.com/uOttaHack" target="_blank">
+            <a
+              href="https://github.com/hi-names-nat/blossomhack"
+              target="_blank"
+            >
               GitHub
             </a>
           </div>

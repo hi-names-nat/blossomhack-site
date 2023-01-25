@@ -25,7 +25,7 @@ export default function About() {
         <h3>Accelerate Your Career</h3>
         <p>
           Attend events like our flagship hackathon and have the opportunity to
-          collaborate with students from across Canada and receive mentorship
+          collaborate with students from around the world and receive mentorship
           from our industry leading sponsors.
         </p>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Front.css";
-import TextLogo from "../../images/uottahack19.png";
+import TextLogo from "../../images/logo.png";
 
 const front = () => {
   return (

@@ -13,7 +13,7 @@ export default function Section({sectionName, subtitle}) {
     <div className="Section">
       <h2>{sectionName}</h2>
       <h3>{subtitle}</h3>
-      {sectionName === "What is Blossom Hack?" && <About />}
+      {sectionName === "What is BlossomHack?" && <About />}
       {sectionName === "FAQ" && <FAQ />}
       {sectionName === "Our Events" && <Event />}
       {sectionName === "Sponsors" && <Sponsor />}

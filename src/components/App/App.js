@@ -17,7 +17,7 @@ class App extends Component {
     this.setState({
       sections: [
         {
-          sectionName: "What is Blossom Hack?",
+          sectionName: "What is BlossomHack?",
           subtitle: ""
         },
         {
