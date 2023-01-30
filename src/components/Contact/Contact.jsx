@@ -29,13 +29,13 @@ export default function Contact() {
           <h3>Looking for promotion or communication help? </h3>
           <Button animated size="large" href="mailto:jg390518@ohio.edu">
             <Button.Content visible>Message us at</Button.Content>
-            <Button.Content hidden>marketing@uottahack.ca</Button.Content>
+            <Button.Content hidden>jg390518@ohio.edu</Button.Content>
           </Button>
 
           <h3>For any other inquiries please contact us!</h3>
           <Button animated size="large" href="mailto:jg390518@ohio.edu">
             <Button.Content visible>Message us at</Button.Content>
-            <Button.Content hidden>chair@uottahack.ca</Button.Content>
+            <Button.Content hidden>jg390518@ohio.edu</Button.Content>
           </Button>
         </div>
       </div>
