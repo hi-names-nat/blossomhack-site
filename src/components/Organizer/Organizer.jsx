@@ -17,7 +17,6 @@ function importAll(r) {
 }
 
 const images = importAll(
-  require.context("../../images/organizers", false, /\.(png|jpe?g|svg)$/)
 );
 
 export default function Organizer() {
