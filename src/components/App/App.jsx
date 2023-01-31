@@ -5,6 +5,8 @@ import Front from "../Front/Front";
 import Page from "../Page/Page";
 import Footer from "../Footer/Footer";
 
+/* This App is brought to you by the hecking_squad */ 
+
 export default function App() {
   const [sections, _] = React.useState([
     {

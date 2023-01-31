@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import { Image } from "semantic-ui-react";
 
 function importAll(r) {
   let images = {};
@@ -26,7 +27,7 @@ export default function navbar() {
             offset={-150}
             duration={500}
           >
-            <img src={images["uottahackLogo.png"]} alt="Logo" />
+            <Image src={images["thumbnail.png"]} size="mini" circular />
           </Link>
         </div>
         <div className="PageLinks">
@@ -70,4 +71,4 @@ export default function navbar() {
       </div>
     </div>
   );
-};
+}

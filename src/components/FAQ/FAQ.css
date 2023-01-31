@@ -1,6 +1,4 @@
 .accordionContainer {
-  width: 100%;
-}
-
-.Dropdown {
+  min-width: 100%;
+  margin: 0;
 }
