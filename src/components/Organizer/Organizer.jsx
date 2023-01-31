@@ -8,17 +8,6 @@ const options = [
   { key: 2, text: "2022/2023", value: 2 },
 ];
 
-function importAll(r) {
-  let images = {};
-  r.keys().map((item, index) => {
-    images[item.replace("./", "")] = r(item);
-  });
-  return images;
-}
-
-const images = importAll(
-);
-
 export default function Organizer() {
   return (
     <div className="Organizer">
