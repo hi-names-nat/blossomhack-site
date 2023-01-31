@@ -7,3 +7,7 @@ var deploy = require("gulp-gh-pages");
 gulp.task("deploy", ["build"], function() {
   return gulp.src("./build/**/*").pipe(deploy());
 });
+
+gulp.task("build", function() {
+  return run("npm run build").exec();
+});
