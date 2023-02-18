@@ -1,34 +1,32 @@
 [
   {
-    "imgsrc": "",
     "header": "Alex Williams",
-    "meta": "Co-Director",
-    "website": "",
-    "linkedin": "",
-    "github": ""
+    "meta": "Logistics Director",
+    "href": ""
   },
   {
-    "imgsrc": "",
     "header": "Natalie Soltis",
-    "meta": "Co-Director",
-    "website": "",
-    "linkedin": "",
-    "github": ""
+    "meta": "Co-Tech Lead",
+    "href": ""
   },
   {
-    "imgsrc": "",
-    "header": "Justin Garey",
-    "meta": "Co-Director",
-    "website": "https://jgarey.tech",
-    "linkedin": "https://www.linkedin.com/in/justin-garey/",
-    "github": "https://github.com/Justin-Garey"
+    "header": "Isabel Alvarez",
+    "meta": "President of SWE",
+    "href": ""
   },
   {
-    "imgsrc": "",
     "header": "Drew Mullett",
-    "meta": "Co-Director",
-    "website": "",
-    "linkedin": "",
-    "github": ""
+    "meta": "Sponsorship Director",
+    "href": ""
+  },
+  {
+    "header": "Justin Garey",
+    "meta": "Co-Tech Lead",
+    "href": "https://jgarey.tech"
+  },
+  {
+    "header": "Josh Marusek",
+    "meta": "Marketing Director",
+    "href": ""
   }
 ]

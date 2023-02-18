@@ -10,12 +10,12 @@ export default function Event() {
           <Card
             header="BobcatCTF Fall"
             meta="Hardware CTF"
-            description="In the Fall we hosted a hardware CTF event event."
+            description="In the Fall we hosted a hardware CTF event."
           />
           <Card
             header="BobcatCTF Spring"
-            meta="Flagship Capture the Flag"
-            description="Our first event, a Capture the Flag competition we hold every year."
+            meta="Flagship Capture the Flag Event"
+            description="The annual Capture the Flag competition bringing cyber security topics to students in the form of contained and fun challenges."
           />
         </div>
       </div>

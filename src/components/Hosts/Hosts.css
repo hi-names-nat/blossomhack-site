@@ -1,0 +1,11 @@
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Img {
+  max-height: 10rem;
+  width: auto;
+  margin: 0 1rem;
+}

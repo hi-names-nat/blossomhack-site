@@ -37,6 +37,10 @@ export default function App() {
       sectionName: "Our Team",
       subtitle: "",
     },
+    {
+      sectionName: "Hosted By",
+      subtitle: "",
+    },
   ]);
 
   return (

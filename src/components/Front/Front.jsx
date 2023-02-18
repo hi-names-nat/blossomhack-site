@@ -12,8 +12,8 @@ export default function front() {
         <div className="HeroText">
           <h1>The Biggest Hackathon at Ohio University</h1>
           <div className="logobutton">
-            <a href="#" target="_blank">
-              <button className="btn">Registration not available yet →</button>
+            <a href="https://tinyurl.com/msdaup39" target="_blank">
+              <button role="button" className="btn"><h1 className="hbtn">Register→</h1></button>
             </a>
           </div>
         </div>

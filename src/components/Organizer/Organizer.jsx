@@ -11,11 +11,11 @@ const options = [
 export default function Organizer() {
   return (
     <div className="Organizer">
-      <div className="menu">
+      {/* <div className="menu">
         <Menu compact>
-          <Dropdown text="2022/2023"  /*options={options}*/ simple item />
+          <Dropdown text="2022/2023"  options={options} simple item />
         </Menu>
-      </div>
+      </div> */}
       <Card.Group centered items={organizer2022} id="cards" />
     </div>
   );

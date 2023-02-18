@@ -44,7 +44,8 @@
     display: flex;
   }
 
-  .PageLinks a {
+  .PageLinks a,
+  .NavLinks a {
     color: #ffffff;
     margin-left: 30px;
     margin-top: 5px;
@@ -65,7 +66,8 @@
     display: none;
   }
 
-  .PageLinks a:hover {
+  .PageLinks a:hover,
+  .NavLinks a:hover {
     transition: 0.3s ease-out;
     border-radius: 5px;
     background: #c7c7c764;

@@ -35,7 +35,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  :10px ;
 }
 
 .TextLogo {
@@ -123,4 +122,8 @@ h1 {
     width: 50%;
     text-align: center;
   }
+}
+
+.hbtn {
+  color: black;
 }

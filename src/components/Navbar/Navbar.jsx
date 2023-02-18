@@ -68,6 +68,11 @@ export default function navbar() {
             Contact
           </Link>
         </div>
+        <div className="NavLinks">
+          <a href="https://blossom-hack.devpost.com/" target="_blank">
+            Dev Post
+          </a>
+        </div>
       </div>
     </div>
   );
