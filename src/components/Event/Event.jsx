@@ -13,9 +13,10 @@ export default function Event() {
             description="In the Fall we hosted a hardware CTF event."
           />
           <Card
+            href="https://bobcatctf.org"
             header="BobcatCTF Spring"
             meta="Flagship Capture the Flag Event"
-            description="The annual Capture the Flag competition bringing cyber security topics to students in the form of contained and fun challenges."
+            description="The annual Capture the Flag competition bringing cyber security topics to students in the form of contained and fun challenges. Click to see more!"
           />
         </div>
       </div>

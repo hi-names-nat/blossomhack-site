@@ -67,7 +67,9 @@ export default function FAQ() {
           <h3>How will I register?</h3>
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 2}>
-          <p>TBA!!</p>
+          <p>
+            You can register <a href="https://tinyurl.com/msdaup39">here</a>
+          </p>
         </Accordion.Content>
         <Accordion.Title
           active={activeIndex === 3}
@@ -128,7 +130,11 @@ export default function FAQ() {
           <h3>How can I help?</h3>
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 7}>
-          <p>TBA...</p>
+          <p>
+            If you are a student at OU, please contact one of the organizations
+            hosting the event. If you are interested in sponsoring, we have a
+            section below just for you.
+          </p>
         </Accordion.Content>
         <Accordion.Title
           active={activeIndex === 8}
@@ -152,7 +158,11 @@ export default function FAQ() {
           </h3>
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 9}>
-          <p>TBA</p>
+          <p>
+            {
+              "You must be in person to be able to get swag. (But if someone is here willing to grab some for you and we have extra, by all means go ahead!)"
+            }
+          </p>
         </Accordion.Content>
         <Accordion.Title
           active={activeIndex === 10}
@@ -192,7 +202,24 @@ export default function FAQ() {
           <h3>COVID info?</h3>
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 12}>
-          <p>TBA</p>
+          <p>
+            If you are feeling sick, please stay home. There will be hand
+            sanitizer provided. To be proactive, you can mask up.
+          </p>
+        </Accordion.Content>
+        <Accordion.Title
+          active={activeIndex === 12}
+          index={12}
+          onClick={handleClick}
+        >
+          {/*<Icon/>*/}
+          <h3>Will there be travel reimbursement?</h3>
+        </Accordion.Title>
+        <Accordion.Content active={activeIndex === 12}>
+          <p>
+            Limited travel reimbursement will be available. Please contact us if
+            you will be needing it.
+          </p>
         </Accordion.Content>
       </Accordion>
     </div>
