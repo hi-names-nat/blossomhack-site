@@ -26,3 +26,15 @@
 .row > a > img:hover {
   transform: scale(1.12);
 }
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Img {
+  max-height: 10rem;
+  width: auto;
+  margin: 1rem 1rem;
+}

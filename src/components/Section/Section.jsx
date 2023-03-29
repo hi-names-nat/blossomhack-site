@@ -8,6 +8,7 @@ import Sponsor from "../Sponsor/Sponsor";
 import Partners from "../Partners/Partners";
 import FAQ from "../FAQ/FAQ";
 import Hosts from "../Hosts/Hosts";
+import Schedule from "../Schedule/Schedule";
 
 export default function Section({sectionName, subtitle}) {
   return (
@@ -22,6 +23,7 @@ export default function Section({sectionName, subtitle}) {
       {sectionName === "Get in touch" && <Contact />}
       {sectionName === "Our Team" && <Organizer />}
       {sectionName === "Hosted By" && <Hosts />}
+      {sectionName === "Schedule" && <Schedule />}
     </div>
   );
 }

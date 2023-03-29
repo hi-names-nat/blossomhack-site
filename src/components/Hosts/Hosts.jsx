@@ -1,9 +1,9 @@
 import React from "react";
-import ougda from "../../images/ougda_logo_updated-640x242.png";
-import nsbe from "../../images/NSBELogo_Color_withName.png";
-import ieee from "../../images/ieee_logo.png";
-import acm from "../../images/acm_logo.png";
-import swe from "../../images/swe_logo.png";
+import ougda from "../../images/hosts/ougda.png";
+import nsbe from "../../images/hosts/nsbe.png";
+import ieee from "../../images/hosts/ieee.png";
+import acm from "../../images/hosts/acm.png";
+import swe from "../../images/hosts/swe.png";
 import "./Hosts.css";
 
 function Hosts() {
@@ -12,8 +12,8 @@ function Hosts() {
       <img src={swe} className="Img" />
       <img src={nsbe} className="Img" />
       <img src={ougda} className="Img" />
-      <img src={ieee} className="Img" />
       <img src={acm} className="Img" />
+      <img src={ieee} className="Img" />
     </div>
   );
 }

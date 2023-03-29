@@ -26,7 +26,11 @@ export default function App() {
       subtitle: "",
     },
     {
-      sectionName: "Partners",
+      sectionName: "Our Team",
+      subtitle: "",
+    },
+    {
+      sectionName: "Hosted By",
       subtitle: "",
     },
     {
@@ -34,11 +38,7 @@ export default function App() {
       subtitle: "",
     },
     {
-      sectionName: "Our Team",
-      subtitle: "",
-    },
-    {
-      sectionName: "Hosted By",
+      sectionName: "Schedule",
       subtitle: "",
     },
   ]);

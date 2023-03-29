@@ -1,5 +1,5 @@
-import "./Sponsor.css";
 import React from "react";
+import "./Sponsor.css";
 
 function importAll(r) {
   let images = {};
@@ -15,22 +15,13 @@ const images = importAll(
 
 export default function Sponsor() {
   return (
-    <div id="Sponsors">
-      {/* this is how they did the grid. Saving it for re-use later. */}
-      <h3 className="placeholder">TBA!</h3>
-      <div className="ui centered grid" id="blurWrap">
-        {/*<div className="row">*/}
-        {/*  <a href="https://www.ciena.ca/" target="_blank">*/}
-        {/*    <img src={images["ciena.png"]} style={{ width: "150px" }} />*/}
-        {/*  </a>*/}
-        {/*  <a href="https://innovapost.com/" target="_blank">*/}
-        {/*    <img src={images["innovapost.png"]} style={{ width: "275px" }} />*/}
-        {/*  </a>*/}
-        {/*  <a href="https://www.nokia.com/" target="_blank">*/}
-        {/*    <img src={images["nokia.png"]} style={{ width: "175px" }} />*/}
-        {/*  </a>*/}
-        {/*</div>*/}
-      </div>
+
+    <div className="Container" id="Sponsors">
+      {Object.keys(images).map((item, idx) => {
+        return (
+          <img src={images[`${item}`]} className="Img" key={idx} />
+        )
+      })}
     </div>
   );
 }

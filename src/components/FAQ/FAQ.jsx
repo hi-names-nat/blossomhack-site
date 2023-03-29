@@ -208,8 +208,8 @@ export default function FAQ() {
           </p>
         </Accordion.Content>
         <Accordion.Title
-          active={activeIndex === 12}
-          index={12}
+          active={activeIndex === 13}
+          index={13}
           onClick={handleClick}
         >
           {/*<Icon/>*/}
