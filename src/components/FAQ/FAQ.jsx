@@ -215,7 +215,7 @@ export default function FAQ() {
           {/*<Icon/>*/}
           <h3>Will there be travel reimbursement?</h3>
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 12}>
+        <Accordion.Content active={activeIndex === 13}>
           <p>
             Limited travel reimbursement will be available. Please contact us if
             you will be needing it.
