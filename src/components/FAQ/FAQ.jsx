@@ -68,7 +68,7 @@ export default function FAQ() {
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 2}>
           <p>
-            You can register <a href="https://tinyurl.com/msdaup39">here</a>
+            Registration Coming Soon!
           </p>
         </Accordion.Content>
         <Accordion.Title
