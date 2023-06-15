@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/blossomhack-site/static/css/main.a902d0b2.css",
-    "main.js": "/blossomhack-site/static/js/main.491f9244.js",
-    "static/media/Inter-Black.ttf": "/blossomhack-site/static/media/Inter-Black.143c28420846d45c5834.ttf",
-    "static/media/Inter-Bold.ttf": "/blossomhack-site/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
-    "static/media/Inter-SemiBold.ttf": "/blossomhack-site/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
-    "static/media/Inter-Regular.ttf": "/blossomhack-site/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
-    "static/media/blossomBG.jpg": "/blossomhack-site/static/media/blossomBG.30e402a4bd32d52e4240.jpg",
-    "static/media/jet_brains.png": "/blossomhack-site/static/media/jet_brains.00ac2802f6d9a13779bb.png",
-    "static/media/ougda.png": "/blossomhack-site/static/media/ougda.9587a6b4712b1c23d76d.png",
-    "static/media/ai_futures.png": "/blossomhack-site/static/media/ai_futures.a821a892bfc370ba1a90.png",
-    "static/media/verbwire.png": "/blossomhack-site/static/media/verbwire.ecd2ba16665b895978fb.png",
-    "static/media/thumbnail.png": "/blossomhack-site/static/media/thumbnail.1b837d042eb44dd0e058.png",
-    "static/media/acm.png": "/blossomhack-site/static/media/acm.787a4dc9774c5568fc6d.png",
-    "static/media/swe.png": "/blossomhack-site/static/media/swe.9419be7f18e773542db2.png",
-    "static/media/nsbe.png": "/blossomhack-site/static/media/nsbe.57c2128f8e0ec07a0107.png",
-    "static/media/z_echo3d.png": "/blossomhack-site/static/media/z_echo3d.b466dfa2b1beacefed80.png",
-    "static/media/footerlogo.png": "/blossomhack-site/static/media/footerlogo.1d89f46d849c41f387d8.png",
-    "static/media/logo.png": "/blossomhack-site/static/media/logo.60254c11b569c81c2c6a.png",
-    "index.html": "/blossomhack-site/index.html",
-    "main.a902d0b2.css.map": "/blossomhack-site/static/css/main.a902d0b2.css.map",
-    "main.491f9244.js.map": "/blossomhack-site/static/js/main.491f9244.js.map"
+    "main.css": "/static/css/main.4588ef6f.css",
+    "main.js": "/static/js/main.65b03bdd.js",
+    "static/media/Inter-Black.ttf": "/static/media/Inter-Black.143c28420846d45c5834.ttf",
+    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/blossomBG.jpg": "/static/media/blossomBG.30e402a4bd32d52e4240.jpg",
+    "static/media/jet_brains.png": "/static/media/jet_brains.00ac2802f6d9a13779bb.png",
+    "static/media/ougda.png": "/static/media/ougda.9587a6b4712b1c23d76d.png",
+    "static/media/ai_futures.png": "/static/media/ai_futures.a821a892bfc370ba1a90.png",
+    "static/media/verbwire.png": "/static/media/verbwire.ecd2ba16665b895978fb.png",
+    "static/media/thumbnail.png": "/static/media/thumbnail.1b837d042eb44dd0e058.png",
+    "static/media/acm.png": "/static/media/acm.787a4dc9774c5568fc6d.png",
+    "static/media/swe.png": "/static/media/swe.9419be7f18e773542db2.png",
+    "static/media/nsbe.png": "/static/media/nsbe.57c2128f8e0ec07a0107.png",
+    "static/media/z_echo3d.png": "/static/media/z_echo3d.b466dfa2b1beacefed80.png",
+    "static/media/footerlogo.png": "/static/media/footerlogo.1d89f46d849c41f387d8.png",
+    "static/media/logo.png": "/static/media/logo.60254c11b569c81c2c6a.png",
+    "index.html": "/index.html",
+    "main.4588ef6f.css.map": "/static/css/main.4588ef6f.css.map",
+    "main.65b03bdd.js.map": "/static/js/main.65b03bdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a902d0b2.css",
-    "static/js/main.491f9244.js"
+    "static/css/main.4588ef6f.css",
+    "static/js/main.65b03bdd.js"
   ]
 }
