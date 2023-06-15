@@ -1,7 +1,7 @@
 {
   "name": "uottahack-home",
   "version": "0.1.0",
-  "homepage": "https://llukehaskell.github.io/blossomhack-site/",
+  "homepage": "https://www.blossomhack.org",
   "private": true,
   "dependencies": {
     "@mobiscroll/react-lite": "^4.10.9",
@@ -31,7 +31,7 @@
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b luke -d build"
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
