@@ -1,7 +1,7 @@
 {
   "name": "uottahack-home",
   "version": "0.1.0",
-  "homepage": "https://hi-names-nat.github.io/blossomhack-site/",
+  "homepage": "https://llukehaskell.github.io/blossomhack-site/",
   "private": true,
   "dependencies": {
     "@mobiscroll/react-lite": "^4.10.9",

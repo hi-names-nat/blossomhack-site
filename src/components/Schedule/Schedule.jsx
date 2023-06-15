@@ -4,7 +4,7 @@ import './Schedule.css'
 export default function Schedule() {
   return (
     <table>
-        <p>April 2024: schedule TBA!</p>
+      <tr><th>April 2024: schedule TBA!</th></tr>
     </table>
   )
 }
