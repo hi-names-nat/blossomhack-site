@@ -16,12 +16,14 @@ const images = importAll(
 export default function Sponsor() {
   return (
 
-    <div className="Container" id="Sponsors">
-      {Object.keys(images).map((item, idx) => {
-        return (
-          <img src={images[`${item}`]} className="Img" key={idx} />
-        )
-      })}
-    </div>
+    <p>[Your Company Here!]</p>
+    
+    // <div className="Container" id="Sponsors">
+    //   {Object.keys(images).map((item, idx) => {
+    //     return (
+    //       <img src={images[`${item}`]} className="Img" key={idx} />
+    //     )
+    //   })}
+    // </div>
   );
 }
