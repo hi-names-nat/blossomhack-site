@@ -12,9 +12,9 @@ export default function front() {
         <div className="HeroText">
           <h1>The Biggest Hackathon at Ohio University</h1>
           <div className="logobutton">
-            {/* <a href="[RESISTRATION LINK HERE]" target="_blank"> */}
-              <button role="button" className="btn"><h1 className="hbtn">Registration Coming Soon!</h1></button>
-            {/* </a> */}
+            <a href="https://l5kysdlzy94.typeform.com/to/IOsDKBh4" target="_blank">
+              <button role="button" className="btn"><h1 className="hbtn">Register→</h1></button>
+            </a>
           </div>
         </div>
       </div>
