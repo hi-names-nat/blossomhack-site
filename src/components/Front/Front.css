@@ -54,6 +54,12 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 40px;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+}
+
 .btn {
   background-color: #ffffff !important;
   color: black;
@@ -68,7 +74,7 @@ h1 {
   border-radius: 8px;
   width: 175px;
   height: 55px;
-  margin-top: 70px;
+  margin-top: 20px;
   transition: 0.3s ease-in-out;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.411)) top/100% 800%;
 }
