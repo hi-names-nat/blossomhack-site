@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { Image } from "semantic-ui-react";
+import { Link as NavLink} from "react-router-dom";
 
 function importAll(r) {
   let images = {};
@@ -49,7 +50,7 @@ export default function navbar() {
           >
             FAQ
           </Link>
-          <Link
+          {/* <Link
             to="Sponsors"
             spy={true}
             smooth={true}
@@ -57,7 +58,15 @@ export default function navbar() {
             duration={500}
           >
             Sponsors
-          </Link>
+          </Link> */}
+          <nav>
+          <ul>
+            <li>
+              <NavLink to={`/sponsor-page`}>Sponsors</NavLink>
+            </li>
+            
+          </ul>
+        </nav>
           <Link
             to="Contact"
             spy={true}
