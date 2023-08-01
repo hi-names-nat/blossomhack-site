@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Front from "../Front/Front";
 import Page from "../Page/Page";
 import Footer from "../Footer/Footer";
+import { Outlet } from "react-router-dom";
 
 /* This App is brought to you by the hecking_squad */ 
 
@@ -50,6 +51,9 @@ export default function App() {
       <Page sections={sections} />
       <hr />
       <Footer />
+      <div id="detail">
+        <Outlet />
+      </div>
     </div>
   );
 }
