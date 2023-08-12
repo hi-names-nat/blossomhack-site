@@ -2,7 +2,7 @@ import React from 'react';
 import SponsorPageNavbar from './SponsorPageNavbar';
 import Footer from '../Footer/Footer';
 import { Image } from "semantic-ui-react";
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import SponsorFront from './SponsorFront';
 import Page from '../Page/Page';
 
@@ -67,6 +67,7 @@ export default function SponsorPage() {
       <div id="detail">
         <Outlet />
       </div>
+      <ScrollRestoration/>
     </div>
 
   );
