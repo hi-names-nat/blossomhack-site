@@ -19,12 +19,18 @@ export default function Sponsor() {
   return (
     
     <div className="Container" id="Sponsor">
-      <div>
-        <NavLink className="SponsorPage"
+      <div className="logobutton">
+        
+        <NavLink className="btn" 
           to={`/sponsor-page`}
         >
-          Meet the Sponsors
+          <button role = "button">
+          <h1 className="hbtn">
+            Meet the Sponsors
+          </h1>
+          </button>
         </NavLink>
+        
       </div>
     </div>
     

@@ -1,16 +1,16 @@
 import React from 'react';
-import SponsorPageNavbar from './SponsorPageNavbar';
+import SponsorPageNavbar from './SponsorPageNavbar/SponsorPageNavbar';
 import Footer from '../Footer/Footer';
 import { Image } from "semantic-ui-react";
 import { Outlet, ScrollRestoration } from "react-router-dom";
-import SponsorFront from './SponsorFront';
-import Page from '../Page/Page';
+import SponsorFront from './SponsorPageFront/SponsorPageFront';
+import SponsorPagePage from './SponsorPagePage/SponsorPagePage';
 
 export default function SponsorPage() {
 
   const [sections, _] = React.useState([
     {
-      sectionName: "What is BlossomHack?",
+      sectionName: "Who Are We?",
       subtitle: "",
     },
     {
@@ -61,7 +61,7 @@ export default function SponsorPage() {
       {/* <img src="https://placekitten.com/g/200/200"/> */}
       {/* <img src = {require('../../images/sponsors/ai_futures.png')}/> */}
       <SponsorFront />
-      <Page sections={sections} />
+      <SponsorPagePage sections={sections} />
       <hr />
       <Footer />
       <div id="detail">

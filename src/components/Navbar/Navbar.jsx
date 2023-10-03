@@ -65,7 +65,7 @@ export default function navbar() {
             offset={-150}
             duration={500}
           >
-            Contact
+            Contact Us
           </Link>
         </div>
         <div className="NavLinks">

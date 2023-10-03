@@ -1,6 +1,6 @@
 import React from "react";
-import "./SponsorFront.css";
-import TextLogo from "../../images/logo.png";
+import "./SponsorPageFront.css";
+import TextLogo from "../../../images/logo.png";
 
 export default function sponsorFront() {
   return (

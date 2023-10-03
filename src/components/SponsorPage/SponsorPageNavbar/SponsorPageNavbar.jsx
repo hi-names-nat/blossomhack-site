@@ -13,7 +13,7 @@ function importAll(r) {
 }
 
 const images = importAll(
-  require.context("../../images", false, /\.(png|jpe?g|svg)$/)
+  require.context("../../../images", false, /\.(png|jpe?g|svg)$/)
 );
 
 export default function SponsorPageNavbar() {
@@ -42,6 +42,37 @@ export default function SponsorPageNavbar() {
           >
             Home
           </NavLink>
+
+          <Link
+            to="SponsorPageAbout"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
+            Who Are We?
+          </Link>
+
+          <Link
+            to="SponsorPageAbout"
+            spy={true}
+            smooth={true}
+            offset={850}
+            duration={500}
+          >
+            FAQ
+          </Link>
+
+          <Link
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+            
+            >
+              Contact Us
+            </Link>
         </div>
         <div className="NavLinks">
           <a href="https://blossom-hack.devpost.com/" target="_blank">

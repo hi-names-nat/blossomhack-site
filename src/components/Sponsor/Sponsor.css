@@ -39,11 +39,42 @@
   margin: 1rem 1rem;
 }
 
-.SponsorPage {
+/* .SponsorPage {
   color: rgb(0, 0, 0);
   font-size: x-large;
   text-align: center;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   padding: 10px 15px;
   background-color: pink;
+} */
+
+.logobutton button {
+  font-family: BoldFont;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 20px;
+  border: none;
+  border-radius: 8px;
+  width: 175px;
+  height: 55px;
+  margin-top: 70px;
+  transition: 0.3s ease-in-out;
+  background: linear-gradient(transparent, rgba(0, 83, 93, 0.411)) top/100% 800%;
+}
+.logobutton button:hover {
+  background-position: bottom;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #ffffff !important;
+  color: black;
+}
+
+.hbtn {
+  color: black;
+}
+
+h1 {
+  color: white;
 }

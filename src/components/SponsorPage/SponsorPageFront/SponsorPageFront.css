@@ -19,7 +19,7 @@
       rgba(1, 1, 1, 0.3),
       rgba(1, 1, 1, 0.3)
     ),
-    url("../../images/blossomBG.jpg");
+    url("../../../images/blossomBG.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: center;
   background-size: cover;
