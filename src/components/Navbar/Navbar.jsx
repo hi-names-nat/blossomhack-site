@@ -2,7 +2,6 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { Image } from "semantic-ui-react";
-import { Link as NavLink} from "react-router-dom";
 
 function importAll(r) {
   let images = {};
@@ -50,15 +49,15 @@ export default function navbar() {
           >
             FAQ
           </Link>
-          <NavLink
-            to={`/sponsor-page`}
+          <Link
+            to="Sponsor"
             spy={true}
             smooth={true}
             offset={-150}
             duration={500}
           >
             Sponsors
-          </NavLink>
+          </Link>
           <Link
             to="Contact"
             spy={true}
@@ -66,7 +65,7 @@ export default function navbar() {
             offset={-150}
             duration={500}
           >
-            Contact
+            Contact Us
           </Link>
         </div>
         <div className="NavLinks">

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Sponsor.css";
+import { Link as NavLink} from "react-router-dom";
+
 
 function importAll(r) {
   let images = {};
@@ -15,8 +17,22 @@ const images = importAll(
 
 export default function Sponsor() {
   return (
-
-    <p>[Your Company Here!]</p>
+    
+    <div className="Container" id="Sponsor">
+      <div className="logobutton">
+        
+        <NavLink className="btn" 
+          to={`/sponsor-page`}
+        >
+          <button role = "button">
+          <h1 className="hbtn">
+            Meet the Sponsors
+          </h1>
+          </button>
+        </NavLink>
+        
+      </div>
+    </div>
     
     // <div className="Container" id="Sponsors">
     //   {Object.keys(images).map((item, idx) => {
