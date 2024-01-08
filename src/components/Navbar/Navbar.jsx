@@ -41,7 +41,8 @@ export default function navbar() {
             About
           </Link>
           <Link
-            to="Events"
+            // to="Events"
+            to = "FAQ"
             spy={true}
             smooth={true}
             offset={-150}

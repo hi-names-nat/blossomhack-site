@@ -9,6 +9,7 @@ import Partners from "../../Partners/Partners";
 import SponsorPageFAQ from "../SponsorPageFAQ/SponsorPageFAQ";
 import Hosts from "../../Hosts/Hosts";
 import Schedule from "../../Schedule/Schedule";
+import SponsorPageSponsor from "../SponsorPageSponsor/SponsorPageSponsor";
 
 export default function SponsorPageSection({sectionName, subtitle}) {
   return (
@@ -17,10 +18,10 @@ export default function SponsorPageSection({sectionName, subtitle}) {
       <h3>{subtitle}</h3>
       {sectionName === "Who Are We?" && <SponsorPageAbout />}
       {sectionName === "FAQ" && <SponsorPageFAQ />}
-      {sectionName === "Our Events" && <Event />}
-      {sectionName === "Sponsors" && <Sponsor />}
+      {/* {sectionName === "Our Events" && <Event />} */}
+      {sectionName === "Our Sponsors" && <SponsorPageSponsor />}
       {sectionName === "Partners" && <Partners />}
-      {sectionName === "Get in touch" && <Contact />}
+      {sectionName === "Get in Touch" && <Contact />}
       {sectionName === "Our Team" && <Organizer />}
       {sectionName === "Hosted By" && <Hosts />}
       {sectionName === "Schedule" && <Schedule />}
