@@ -54,10 +54,10 @@ export default function SponsorPageNavbar() {
           </Link>
 
           <Link
-            to="SponsorPageAbout"
+            to="SponsorPageFAQ"
             spy={true}
             smooth={true}
-            offset={850}
+            offset={-150}
             duration={500}
           >
             FAQ

@@ -17,10 +17,10 @@ export default function Section({sectionName, subtitle}) {
       <h3>{subtitle}</h3>
       {sectionName === "What is BlossomHack?" && <About />}
       {sectionName === "FAQ" && <FAQ />}
-      {sectionName === "Our Events" && <Event />}
+      {/* {sectionName === "Our Events" && <Event />} */}
       {sectionName === "Sponsors" && <Sponsor />}
       {sectionName === "Partners" && <Partners />}
-      {sectionName === "Get in touch" && <Contact />}
+      {sectionName === "Get in Touch" && <Contact />}
       {sectionName === "Our Team" && <Organizer />}
       {sectionName === "Hosted By" && <Hosts />}
       {sectionName === "Schedule" && <Schedule />}

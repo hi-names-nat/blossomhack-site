@@ -13,16 +13,16 @@ export default function SponsorPage() {
       sectionName: "Who Are We?",
       subtitle: "",
     },
-    {
-      sectionName: "Our Events",
-      subtitle: "",
-    },
+    // {
+    //   sectionName: "Our Events",
+    //   subtitle: "",
+    // },
     {
       sectionName: "FAQ",
       subtitle: "",
     },
     {
-      sectionName: "Sponsors",
+      sectionName: "Our Sponsors",
       subtitle: "",
     },
     {
@@ -34,7 +34,7 @@ export default function SponsorPage() {
       subtitle: "",
     },
     {
-      sectionName: "Get in touch",
+      sectionName: "Get in Touch",
       subtitle: "",
     },
     {

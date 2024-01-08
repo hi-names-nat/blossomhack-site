@@ -14,10 +14,10 @@ export default function App() {
       sectionName: "What is BlossomHack?",
       subtitle: "",
     },
-    {
-      sectionName: "Our Events",
-      subtitle: "",
-    },
+    // {
+    //   sectionName: "Our Events",
+    //   subtitle: "",
+    // },
     {
       sectionName: "FAQ",
       subtitle: "",
@@ -35,7 +35,7 @@ export default function App() {
       subtitle: "",
     },
     {
-      sectionName: "Get in touch",
+      sectionName: "Get in Touch",
       subtitle: "",
     },
     {
