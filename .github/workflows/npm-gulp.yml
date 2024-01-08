@@ -24,6 +24,7 @@ jobs:
 
     - name: Build
       run: |
+        npm install gift --force
         npm install --force
         npm run build
         gulp deploy
