@@ -24,6 +24,6 @@ jobs:
 
     - name: Build
       run: |
-        npm install
-        npm run build
+        npm install --legacy-peer-deps
+        npm run build --legacy-peer-deps
         gulp deploy

@@ -60,6 +60,10 @@
   margin-top: 70px;
   transition: 0.3s ease-in-out;
   background: linear-gradient(transparent, rgba(0, 83, 93, 0.411)) top/100% 800%;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .logobutton button:hover {
   background-position: bottom;
