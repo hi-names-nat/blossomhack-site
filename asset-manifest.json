@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.ddf81224.css",
-    "main.js": "/static/js/main.8252cf78.js",
+    "main.js": "/static/js/main.c5a6237b.js",
     "static/media/Inter-Black.ttf": "/static/media/Inter-Black.143c28420846d45c5834.ttf",
     "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/OhioIsHome-Green.png": "/static/media/OhioIsHome-Green.11ce044fc353099a0db7.png",
     "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/blossomBG.jpg": "/static/media/blossomBG.30e402a4bd32d52e4240.jpg",
     "static/media/ougda.png": "/static/media/ougda.9587a6b4712b1c23d76d.png",
@@ -16,10 +17,10 @@
     "static/media/logo.png": "/static/media/logo.60254c11b569c81c2c6a.png",
     "index.html": "/index.html",
     "main.ddf81224.css.map": "/static/css/main.ddf81224.css.map",
-    "main.8252cf78.js.map": "/static/js/main.8252cf78.js.map"
+    "main.c5a6237b.js.map": "/static/js/main.c5a6237b.js.map"
   },
   "entrypoints": [
     "static/css/main.ddf81224.css",
-    "static/js/main.8252cf78.js"
+    "static/js/main.c5a6237b.js"
   ]
 }
