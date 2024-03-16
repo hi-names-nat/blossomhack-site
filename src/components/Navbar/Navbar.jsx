@@ -77,8 +77,6 @@ export default function navbar() {
           >
             Code of Conduct
           </a>
-        </div>
-        <div className="NavLinks">
           <a href="https://blossomhack-2024-20522.devpost.com/?ref_feature=challenge&ref_medium=discover" target="_blank">
             Dev Post
           </a>
