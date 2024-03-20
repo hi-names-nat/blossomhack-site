@@ -68,9 +68,16 @@ export default function navbar() {
           >
             Contact Us
           </Link>
-        </div>
-        <div className="NavLinks">
-          <a href="https://blossom-hack.devpost.com/" target="_blank">
+          <a
+            href="http://hackp.ac/coc"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
+            Code of Conduct
+          </a>
+          <a href="https://blossomhack-2024-20522.devpost.com/?ref_feature=challenge&ref_medium=discover" target="_blank">
             Dev Post
           </a>
         </div>
