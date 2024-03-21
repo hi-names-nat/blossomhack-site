@@ -82,8 +82,7 @@ export default function FAQ() {
           </Accordion.Title>
           <Accordion.Content active={activeIndex === 3}>
             <p>
-              Our event is in-person focused, however virtual participation is
-              permitted.
+              Judging and the awards ceremony will be done entirely in person, so we will have no virtual component. If you need to travel, feel free to reach out to reserve a travel reimbursement package
             </p>
           </Accordion.Content>
           <Accordion.Title
