@@ -42,6 +42,11 @@ export default function App() {
       sectionName: "Schedule",
       subtitle: "",
     },
+    {
+      sectionName: "Location",
+      subtitle: "",
+    },
+
   ]);
 
   return (

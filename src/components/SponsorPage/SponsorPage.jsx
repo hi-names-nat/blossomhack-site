@@ -21,6 +21,7 @@ export default function SponsorPage() {
       sectionName: "FAQ",
       subtitle: "",
     },
+
     {
       sectionName: "Our Sponsors",
       subtitle: "",
@@ -41,6 +42,10 @@ export default function SponsorPage() {
       sectionName: "Schedule",
       subtitle: "",
     },
+    {
+      sectionName: "Location",
+      subtitle: "",
+    },
   ]);
 
   function importAll(r) {
@@ -57,6 +62,19 @@ export default function SponsorPage() {
 
   return (
     <div id="sponsor-page">
+    <a
+      id="mlh-trust-badge"
+      style={{display: "block", maxWidth: "130px", minWidth: "70px", position: "fixed", right: "50px", top: "-35px", width: "10%", zIndex: "10000"}}
+      href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
+        alt="Major League Hacking 2024 Hackathon Season"
+        style={{width: "100%"}}
+      />
+    </a>
       <SponsorPageNavbar />
       {/* <img src="https://placekitten.com/g/200/200"/> */}
       {/* <img src = {require('../../images/sponsors/ai_futures.png')}/> */}

@@ -29,7 +29,11 @@ export default function footer() {
             >
               GitHub
             </a>
+
           </div>
+          <br/>
+          <a href="https://www.flaticon.com/" title="icons" target="_blank" rel="noopener noreferrer">
+          <div className = "IconLinks">Link and GPS icons created by Kumakamu and Icon Wind - Flaticon</div></a>
         </div>
       </div>
     </div>

@@ -25,6 +25,10 @@
   margin-bottom: 120px;
 }
 
+.IconLinks {
+  text-align: center;
+}
+
 @media only screen and (max-width: 10000px) {
   .MediaLinks {
     display: flex;

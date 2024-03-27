@@ -73,11 +73,12 @@ export default function SponsorPageNavbar() {
             >
               Contact Us
             </Link>
-        </div>
-        <div className="NavLinks">
-          <a href="https://blossom-hack.devpost.com/" target="_blank">
+            <a href="https://blossomhack-2024-20522.devpost.com/?ref_feature=challenge&ref_medium=discover" target="_blank">
             Dev Post
           </a>
+        </div>
+        <div className="NavLinks">
+
         </div>
       </div>
     </div>

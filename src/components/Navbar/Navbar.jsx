@@ -51,6 +51,15 @@ export default function navbar() {
             FAQ
           </Link>
           <Link
+            to="Schedule"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
+            Schedule/Location
+          </Link>
+          <Link
             to="Sponsor"
             spy={true}
             smooth={true}
@@ -59,6 +68,7 @@ export default function navbar() {
           >
             Sponsors
           </Link>
+
           <Link
             to="Contact"
             spy={true}

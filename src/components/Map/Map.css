@@ -1,0 +1,20 @@
+.leaflet-container {
+  height: 60vh;
+  width: 100%;
+}
+
+/*.Button a:link
+{
+    background-color: red;
+}*/
+
+.button-link {
+  color: green;
+  margin-bottom: -4px;
+  width: 23px;
+  height: 23px;
+}
+
+.link-color {
+  color: #44cd9f;
+}
