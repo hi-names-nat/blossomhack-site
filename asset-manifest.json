@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.ddf81224.css",
-    "main.js": "/static/js/main.bacd505c.js",
+    "main.css": "/static/css/main.71e5730e.css",
+    "main.js": "/static/js/main.504de30e.js",
+    "static/media/parkingMap.jpg": "/static/media/parkingMap.d1033bb227b4b616e51e.jpg",
+    "static/media/blossomhackMap.png": "/static/media/blossomhackMap.b7d60617c5cd93be09d2.png",
     "static/media/Inter-Black.ttf": "/static/media/Inter-Black.143c28420846d45c5834.ttf",
     "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
@@ -15,12 +17,13 @@
     "static/media/nsbe.png": "/static/media/nsbe.57c2128f8e0ec07a0107.png",
     "static/media/footerlogo.png": "/static/media/footerlogo.1d89f46d849c41f387d8.png",
     "static/media/logo.png": "/static/media/logo.60254c11b569c81c2c6a.png",
+    "static/media/tracker.png": "/static/media/tracker.437b6281f2df8cb3a2ad.png",
     "index.html": "/index.html",
-    "main.ddf81224.css.map": "/static/css/main.ddf81224.css.map",
-    "main.bacd505c.js.map": "/static/js/main.bacd505c.js.map"
+    "main.71e5730e.css.map": "/static/css/main.71e5730e.css.map",
+    "main.504de30e.js.map": "/static/js/main.504de30e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddf81224.css",
-    "static/js/main.bacd505c.js"
+    "static/css/main.71e5730e.css",
+    "static/js/main.504de30e.js"
   ]
 }
