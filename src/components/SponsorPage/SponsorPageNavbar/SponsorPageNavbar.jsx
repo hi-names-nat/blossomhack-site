@@ -73,6 +73,17 @@ export default function SponsorPageNavbar() {
             >
               Contact Us
             </Link>
+
+            <Link
+            to="Schedule"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+
+            >
+              Schedule/Location
+            </Link>
             <a href="https://blossomhack-2024-20522.devpost.com/?ref_feature=challenge&ref_medium=discover" target="_blank">
             Dev Post
           </a>
