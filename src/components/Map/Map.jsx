@@ -69,7 +69,7 @@ export default function Map() {
       <br/> <br/>
       Our opening ceremony/registration will be housed at Irvine Hall (building 118) after which, we will move to the Academic Research Center (building 119) for the remainder of the hackathon before returning to Irvine for the closing ceremony.
       <br/><br/>
-      Parking spaces 114, 127, or 128 are recommended as there will be a baseball game Saturday at 2PM.
+      Parking spaces 109, 114, 127, and 128 are recommended as there will be a baseball game Saturday at 2PM.
       <br/>
       Open the link to see all available parking options. (
     <a href={parkingMap} target="_blank" rel="noopener noreferrer">
