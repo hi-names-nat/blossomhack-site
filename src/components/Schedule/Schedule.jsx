@@ -5,7 +5,7 @@ export default function Schedule() {
   return (
     <table>
       <p>
-        <u>Saturday, April 6</u><br/>
+        <u>Saturday, March 22</u><br/>
         10:00 AM                 Check-In Opens: Irvine 194<br/>
         11:00 AM                 Lunch & Opening Ceremony<br/>
         11:30 AM                 Hacking Begins<br/>
@@ -17,7 +17,7 @@ export default function Schedule() {
         4:30 PM - 5:30 PM        Easter Egg Hunt<br/>
         6:00 PM                  Dinner<br/>
         9:00 PM                  Excel Speedrunning<br/><br/>
-        <u>Sunday, April 7</u><br/>
+        <u>Sunday, March 23</u><br/>
         12:00 AM            Midnight Snack : Insomnia Cookies<br/>
         1:00 AM             Paper Airplanes<br/>
         8:00 AM             Breakfast<br/>

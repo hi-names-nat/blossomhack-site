@@ -2,3 +2,10 @@
   min-width: 100%;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .FAQ {
+      width: 80%;
+      justify-self: center;
+  }
+}

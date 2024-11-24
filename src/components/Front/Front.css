@@ -5,11 +5,22 @@
   justify-content: center;
   text-align: center;
   height: 75vh;
-  margin-bottom: 33vh;
+  margin-bottom: 25vh;
   z-index: 1;
   overflow: hidden;
 }
-
+@media (max-width: 768px) {
+  .Front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    margin-bottom: 21vh;
+    z-index: 1;
+  }
+}
 .Front::before {
   content: "";
   position: absolute;
@@ -27,15 +38,36 @@
   height: 100vh;
   width: 100vw;
 }
+@media (max-width: 768px) {
+  .Front::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    background-image: linear-gradient(
+        to right,
+        rgba(1, 1, 1, 0.3),
+        rgba(1, 1, 1, 0.3)
+      ),
+      url("../../images/blossomBG.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    height: 80vh;
+    width: 100vw;
+  }
+
+}
 
 .Hero {
   display: flex;
-  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 15px;
+  position: relative; 
+  width: 100%;
 }
+
 
 .TextLogo {
   align-self: center;
@@ -60,8 +92,58 @@ h2 {
   color: rgb(0, 0, 0);
 }
 
+.logbutton {
+  width: auto; /* Automatically adjust to the content */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center the container itself */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.logbutton button {
+  font-family: BoldFont;
+  font-size: 1rem; /* Use relative units for scaling */
+  font-weight: 100;
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  width: 90%; /* Scale button width on mobile */
+  max-width: 175px; /* Prevent the button from becoming too wide */
+  height: auto; /* Adjust height automatically */
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.411)) top/100% 800%;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+.logbutton button:hover {
+  background-position: bottom;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .logbutton {
+    width: 100%; /* Full width of parent container */
+    margin: 0 auto;
+  }
+
+  .logbutton button {
+    width: 90%; /* Button takes up 90% of the container width */
+    max-width: 200px; /* Limit the button size */
+    font-size: 0.9rem; /* Slightly smaller font size for mobile */
+    padding: 10px; /* Adjust padding for mobile screens */
+  }
+}
+
+
 .date {
   color: rgb(255, 255, 255);
+}
+@media (max-width: 768px) {
+  .date{
+    font-size:2rem;
+  }
 }
 
 .btn {
@@ -69,23 +151,6 @@ h2 {
   color: black;
 }
 
-.logobutton button {
-  font-family: BoldFont;
-  font-size: 15px;
-  font-weight: 100;
-  margin: 20px;
-  border: none;
-  border-radius: 8px;
-  width: 175px;
-  height: 55px;
-  margin-top: 20px;
-  transition: 0.3s ease-in-out;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.411)) top/100% 800%;
-}
-.logobutton button:hover {
-  background-position: bottom;
-  cursor: pointer;
-}
 
 @media only screen and (max-width: 2560px) {
   h1 {
