@@ -144,3 +144,35 @@
     margin: 1px;
   }
 }
+
+.Hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  margin-right: 5%;
+}
+
+/* Responsive Dropdown */
+@media (max-width: 768px) {
+  .PageLinks {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 75%;
+    right: 5%;
+    background-color: #a183b5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .PageLinks.Open {
+    display: flex;
+  }
+
+  .Hamburger {
+    display: block;
+  }
+}

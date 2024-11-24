@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { Image } from "semantic-ui-react";
@@ -15,39 +15,31 @@ const images = importAll(
   require.context("../../images", false, /\.(png|jpe?g|svg)$/)
 );
 
-export default function navbar() {
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false); // State to control dropdown menu
+
+  // Toggles the dropdown menu
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="NavbarContainer">
       <div className="Navbar">
         <div className="PageTitle">
-          <Link
-            to="About"
-            spy={true}
-            smooth={true}
-            offset={-150}
-            duration={500}
-          >
+          <Link to="About" spy={true} smooth={true} offset={-150} duration={500}>
             <Image src={images["thumbnail.png"]} size="mini" circular />
           </Link>
         </div>
-        <div className="PageLinks">
-          <Link
-            to="About"
-            spy={true}
-            smooth={true}
-            offset={-150}
-            duration={500}
-          >
+        {/* Hamburger Icon for Mobile */}
+        <div className="Hamburger" onClick={toggleMenu}>
+          ☰
+        </div>
+        <div className={`PageLinks ${isOpen ? "Open" : ""}`}>
+          <Link className="hamLink" to="About" spy={true} smooth={true} offset={-150} duration={500}>
             About
           </Link>
-          <Link
-            // to="Events"
-            to = "FAQ"
-            spy={true}
-            smooth={true}
-            offset={-150}
-            duration={500}
-          >
+          <Link to="FAQ" spy={true} smooth={true} offset={-150} duration={500}>
             FAQ
           </Link>
           <Link
@@ -77,7 +69,11 @@ export default function navbar() {
           >
             Code of Conduct
           </a>
-          <a href="https://blossomhack-2024-20522.devpost.com/?ref_feature=challenge&ref_medium=discover" target="_blank">
+          <a
+            href="https://blossomhack-2024-20522.devpost.com/?ref_feature=challenge&ref_medium=discover"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Dev Post
           </a>
         </div>

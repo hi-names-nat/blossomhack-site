@@ -9,7 +9,7 @@ import "./Hosts.css";
 function Hosts() {
   return (
     <div className="Container">
-      <img src={swe} className="Img" /> */
+      <img src={swe} className="Img" /> 
       <img src={nsbe} className="Img" />
       <img src={ougda} className="Img" />
       <img src={acm} className="Img" />

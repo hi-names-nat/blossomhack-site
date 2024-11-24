@@ -5,7 +5,7 @@
   justify-content: center;
   text-align: center;
   height: 75vh;
-  margin-bottom: 33vh;
+  margin-bottom: 25vh;
   z-index: 1;
   overflow: hidden;
 }
@@ -17,7 +17,7 @@
     justify-content: center;
     text-align: center;
     height: 50vh;
-    margin-bottom: 33vh;
+    margin-bottom: 21vh;
     z-index: 1;
     overflow: hidden;
   }
@@ -57,6 +57,7 @@
     height: 80vh;
     width: 100vw;
   }
+
 }
 
 .Hero {
@@ -117,6 +118,8 @@ h2 {
   background-position: bottom;
   cursor: pointer;
 }
+
+
 
 @media only screen and (max-width: 2560px) {
   h1 {
