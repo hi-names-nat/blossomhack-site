@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 import { Outlet, ScrollRestoration } from "react-router-dom";
 
 /* This App is brought to you by the hecking_squad */ 
+/* Who is the squad? */
 
 export default function App() {
   const [sections, _] = React.useState([

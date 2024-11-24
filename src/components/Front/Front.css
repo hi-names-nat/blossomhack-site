@@ -9,7 +9,19 @@
   z-index: 1;
   overflow: hidden;
 }
-
+@media (max-width: 768px) {
+  .Front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    margin-bottom: 33vh;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
 .Front::before {
   content: "";
   position: absolute;
@@ -26,6 +38,25 @@
   z-index: -1;
   height: 100vh;
   width: 100vw;
+}
+@media (max-width: 768px) {
+  .Front::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    background-image: linear-gradient(
+        to right,
+        rgba(1, 1, 1, 0.3),
+        rgba(1, 1, 1, 0.3)
+      ),
+      url("../../images/blossomBG.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    height: 80vh;
+    width: 100vw;
+  }
 }
 
 .Hero {

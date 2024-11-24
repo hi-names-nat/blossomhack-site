@@ -6,7 +6,7 @@ export default function About() {
     <div className="About" id="About">
       <p>
         The first and best hackathon hosted at Ohio University by OUGDA, NSBE,
-        SWE, IEEE, and ACM. This event is open to students of all backgrounds.
+        SWE, IEEE, OUSDC, and ACM. This event is open to students of all backgrounds.
         Our mission is to provide students with technical and professional
         opportunities outside of the confines of the classroom.
       </p>
