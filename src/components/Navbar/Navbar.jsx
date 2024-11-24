@@ -36,7 +36,7 @@ export default function Navbar() {
           ☰
         </div>
         <div className={`PageLinks ${isOpen ? "Open" : ""}`}>
-          <Link className="hamLink" to="About" spy={true} smooth={true} offset={-150} duration={500}>
+          <Link to="About" spy={true} smooth={true} offset={-150} duration={500}>
             About
           </Link>
           <Link to="FAQ" spy={true} smooth={true} offset={-150} duration={500}>

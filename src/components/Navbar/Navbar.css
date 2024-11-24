@@ -153,16 +153,19 @@
   margin-right: 5%;
 }
 
-/* Responsive Dropdown */
 @media (max-width: 768px) {
+  a { 
+    margin: 0 !important; 
+    font-size: large;
+  }
   .PageLinks {
     display: none;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: column; 
+    gap: 5px;
     position: absolute;
     top: 75%;
     right: 5%;
-    background-color: #a183b5;
+    background-color: rgba(0, 0, 0, 0.855);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     border-radius: 5px;
